@@ -1,3 +1,117 @@
 body {
-    background-color: blueviolet;
+    background: url('../images/bg-desktop.svg') center center no-repeat;
+    background-color: hsl(257, 40%, 49%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.head {
+    padding: 30px;
+    margin-right: 950px;
+}
+
+.head img {
+    width: 210px;
+}
+
+.main-div {
+    font-family: "Poppins", sans-serif;
+    max-width: 1366px;
+    padding: 60px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    color: #fff;
+}
+
+.main-div .info {
+    margin-bottom: 170px;
+}
+
+.main-div .info h2 {
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.main-div .info p {
+    font-weight: 300;
+    font-size: 14px;
+    padding: 20px 0;
+}
+
+.main-div .info .btn {
+    color: hsl(257, 40%, 49%);
+    width: 160px;
+    height: 50px;
+    font-family: "Poppins", sans-serif;
+    border: 1px solid #000;
+    border-radius: 50px;
+    box-shadow: 0px 0px 25px -10px #000000;
+    transition: 0.1s;
+}
+
+.main-div .info .btn:hover {
+    color: #fff;
+    background-color: hsl(300, 69%, 71%);
+}
+
+.social {
+    display: flex;
+    gap: 12px;
+    margin-left: 1000px;
+}
+
+.social .fa-facebook-f {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border: 1px solid #fff;
+    width: 35px;
+    height: 35px;
+    border-radius: 35px;
+    transition: 0.1s;
+}
+
+.social .fa-facebook-f:hover {
+    color: hsl(300, 69%, 71%);
+    border: 1px solid hsl(300, 69%, 71%);
+}
+
+.social .fa-instagram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border: 1px solid #fff;
+    width: 35px;
+    height: 35px;
+    border-radius: 35px;
+    transition: 0.1s;
+}
+
+.social .fa-instagram:hover {
+    color: hsl(300, 69%, 71%);
+    border: 1px solid hsl(300, 69%, 71%);
+}
+
+.social .fa-twitter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border: 1px solid #fff;
+    width: 35px;
+    height: 35px;
+    border-radius: 35px;
+    transition: 0.1s;
+}
+
+.social .fa-twitter:hover {
+    color: hsl(300, 69%, 71%);
+    border: 1px solid hsl(300, 69%, 71%);
 }
