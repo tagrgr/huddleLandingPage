@@ -1,7 +1,7 @@
-# - Huddle landing page with a single introductory section
+# Huddle landing page with a single introductory section
 This is an advanced CSS challenge project from the DevQuest course, which consists of creating a landing page for Huddle.
 
-## - Project Structure
+## Project Structure
     root/
         src/
             css/
