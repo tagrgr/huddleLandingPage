@@ -1,8 +1,8 @@
 @media (max-width: 576px) {  
     body {
-        background: url(../images/bg-mobile.svg) no-repeat center center;
+        background: url(../images/bg-mobile.svg) no-repeat;
         background-color: hsl(257, 40%, 49%);
-        background-size: cover;
+        background-size: contain;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -11,8 +11,8 @@
     }
 
     .head .logo {
-        margin: 60px;
-        width: 150px;
+        margin: 50px;
+        width: 120px;
     }
 
     .container {
@@ -29,16 +29,16 @@
     }
 
     .container .info h2 {
-        font-size: 28px;
+        font-size: 26px;
     }
 
     .container .info p {
-        font-size: 16px;
+        font-size: 14px;
         padding: 20px 0;
     }
 
     .container .info .btn {
-        width: 250px;
+        width: 200px;
         margin: 20px 0 50px 0;
     }
 
